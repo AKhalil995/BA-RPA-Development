@@ -27,15 +27,9 @@
 | Title | Issuer | Issued | Link | Verify |
 |---|---|---:|---|---|
 | HTML & CSS | MaharaTech | — | [PDF](<Ahmed Khalil - Html&CSS - MaharaTech Cert.pdf>) | — |
-| C# (Basic) | HackerRank | — | [PDF](<C_sharp (Basic) Certificate - HackerRank.pdf>) | *(add HackerRank verify URL if available)* |
-| Python (Basic) | HackerRank | — | [PDF](<Python (Basic) Certificate - HackerRank.pdf>) | *(add HackerRank verify URL if available)* |
+| C# (Basic) | HackerRank | — | [PDF](<C_sharp (Basic) Certificate - HackerRank.pdf>) | [*Verify*](https://www.hackerrank.com/certificates/e3f03e3fa969) |
+| Python (Basic) | HackerRank | — | [PDF](<Python (Basic) Certificate - HackerRank.pdf>) | [*Verify*](https://www.hackerrank.com/certificates/bf56e7d36a2f) |
 | **Introduction to Cybersecurity** | **Cisco Networking Academy** | **Aug 23, 2022** | [PDF](I2CSUpdate20251001-31-j8t3l9.pdf) | QR code on certificate |
 | **Networking Basics** | **Cisco Networking Academy** | **Dec 03, 2022** | [PDF](NetworkingBasicsUpdate20251001-30-teqsep.pdf) | QR code on certificate |
-
-## TryHackMe Badges
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1366695"
-        style="border:none;width:100%;height:700px;"></iframe>
-
-<p><a href="../README.md">Back to repo README</a></p>
 
 
