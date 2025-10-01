@@ -1,34 +1,41 @@
 # 🎓 Certificates & 🏅 Badges
 
-At-a-glance (click any badge to verify):
+## Badges (with verification)
+
+- TryHackMe — **Terminaled** → https://tryhackme.com/plightwellplace/badges/terminaled  
+- TryHackMe — **Network Fundamentals** → https://tryhackme.com/plightwellplace/badges/network-fundamentals  
+- Credly badge → https://www.credly.com/badges/64842f54-1c93-46b4-9bad-911ed7f252dd  
+- Credly badge → https://www.credly.com/badges/f879ba36-f9c3-48c4-bc68-63d42a26f83b
+
+### Badge gallery
+(click any image to open the official verification page)
 
 <p>
   <a href="https://tryhackme.com/plightwellplace/badges/terminaled">
-    <img src="badges/tryhackme-terminaled.png" alt="TryHackMe: Terminaled" height="64">
+    <img src="232b582a4941f96d9470532131cc7bf5.png" alt="TryHackMe: Terminaled" height="64">
   </a>
   <a href="https://tryhackme.com/plightwellplace/badges/network-fundamentals">
-    <img src="badges/tryhackme-network-fundamentals.png" alt="TryHackMe: Network Fundamentals" height="64">
+    <img src="410ab5d30c6974680febb9c51586a897.png" alt="TryHackMe: Network Fundamentals" height="64">
   </a>
   <a href="https://www.credly.com/badges/64842f54-1c93-46b4-9bad-911ed7f252dd">
-    <img src="badges/credly-64842f54.png" alt="Credly badge 64842f54" height="64">
-  </a>
-  <a href="https://www.credly.com/badges/f879ba36-f9c3-48c4-bc68-63d42a26f83b">
-    <img src="badges/credly-f879ba36.png" alt="Credly badge f879ba36" height="64">
+    <img src="b471211ad1dade21d7bd9bcde7684c84.png" alt="Credly badge" height="64">
   </a>
 </p>
 
----
-
 ## Certificates (PDFs)
 
-| Title | Issuer | Link | Verify |
-|---|---|---|---|
-| HTML & CSS | MaharaTech | [PDF](<certs/Ahmed Khalil - Html&CSS - MaharaTech Cert.pdf>) | — |
-| C# (Basic) | HackerRank | [PDF](<certs/C_sharp (Basic) Certificate - HackerRank.pdf>) | *(add your HackerRank verify URL if available)* |
-| Python (Basic) | HackerRank | [PDF](<certs/Python (Basic) Certificate - HackerRank.pdf>) | *(add your HackerRank verify URL if available)* |
+| Title | Issuer | Issued | Link | Verify |
+|---|---|---:|---|---|
+| HTML & CSS | MaharaTech | — | [PDF](<Ahmed Khalil - Html&CSS - MaharaTech Cert.pdf>) | — |
+| C# (Basic) | HackerRank | — | [PDF](<C_sharp (Basic) Certificate - HackerRank.pdf>) | *(add HackerRank verify URL if available)* |
+| Python (Basic) | HackerRank | — | [PDF](<Python (Basic) Certificate - HackerRank.pdf>) | *(add HackerRank verify URL if available)* |
+| **Introduction to Cybersecurity** | **Cisco Networking Academy** | **Aug 23, 2022** | [PDF](I2CSUpdate20251001-31-j8t3l9.pdf) | QR code on certificate |
+| **Networking Basics** | **Cisco Networking Academy** | **Dec 03, 2022** | [PDF](NetworkingBasicsUpdate20251001-30-teqsep.pdf) | QR code on certificate |
 
-> Notes  
-> • Files kept in `/certs`.  
-> • Badge images kept in `/badges`.  
-> • For privacy, redact certificate IDs in images if you like; keep official verification links above.
+## TryHackMe Badges
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=1366695"
+        style="border:none;width:100%;height:700px;"></iframe>
+
+<p><a href="../README.md">Back to repo README</a></p>
+
 
