@@ -30,6 +30,7 @@ shared save routine.
 - Uses a shared module **`SaveResultToNotepad.xaml`** to persist results with timestamped filenames in `/Output`.
 
 **Folder:** [`RPA Projects/Modular_Workflow-SelectAssistant`](RPA%20Projects/Modular_Workflow-SelectAssistant/)
+
 **Run:** open `project.json` in UiPath Studio → *Restore Dependencies* → run **Main Flow.xaml** (or **Main.xaml**) entry point.
 
 ---
