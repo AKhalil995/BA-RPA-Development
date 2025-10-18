@@ -31,7 +31,7 @@ shared save routine.
 
 **Folder:** [`RPA Projects/Modular_Workflow-SelectAssistant`](RPA%20Projects/Modular_Workflow-SelectAssistant/)
 
-**Run:** open `project.json` in UiPath Studio → *Restore Dependencies* → run **Main Flow.xaml** (or **Main.xaml**) entry point.
+**Run:** open `project.json` in UiPath Studio → *Restore Dependencies* → run **Main Flow.xaml** entry point.
 
 ---
 
