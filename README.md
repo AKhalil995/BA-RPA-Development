@@ -18,6 +18,22 @@ Prompts for a city/country → searches Google Weather → extracts **Temperatur
 
 ---
 
+### Select Assistant (Modular Workflow, UiPath)
+A **menu‑driven, modular RPA bot** that lets you choose between two assistants at runtime:
+**Movies** or **Temperature**. It demonstrates clean separation into reusable workflows and a
+shared save routine.
+
+**What it does**
+- Presents a selector (Movies / Temperature) and routes to the chosen assistant.
+- **Movies Assistant** → prompts for a title → fetches details from IMDb (Title, Year, Runtime, Rating, Popularity, URL) → writes a formatted note.
+- **Temperature Assistant** → asks for City/Country → scrapes Google Weather (Temperature, Humidity, Status) → writes a formatted note.
+- Uses a shared module **`SaveResultToNotepad.xaml`** to persist results with timestamped filenames in `/Output`.
+
+**Folder:** [`RPA Projects/Modular_Workflow-SelectAssistant`](RPA%20Projects/Modular_Workflow-SelectAssistant/)
+**Run:** open `project.json` in UiPath Studio → *Restore Dependencies* → run **Main Flow.xaml** (or **Main.xaml**) entry point.
+
+---
+
 ## 🎓 Certificates & 🏅 Badges
 
 ### Badges (with verification)
