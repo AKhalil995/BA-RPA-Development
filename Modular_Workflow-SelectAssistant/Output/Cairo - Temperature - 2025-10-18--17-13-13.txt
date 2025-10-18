@@ -1,3 +1,0 @@
-Country: Cairo
-Temperature: 29
-Status: OK

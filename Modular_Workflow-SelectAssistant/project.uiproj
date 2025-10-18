@@ -1,6 +1,0 @@
-{
-  "Name": "First Bot",
-  "ProjectType": "Process",
-  "Description": "Create First Temp Bot",
-  "MainFile": "Main Flow.xaml"
-}
