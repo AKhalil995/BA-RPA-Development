@@ -25,7 +25,7 @@ shared save routine.
 
 **What it does**
 - Presents a selector (Movies / Temperature) and routes to the chosen assistant.
-- **Movies Assistant** → prompts for a title → fetches details from IMDb (Title, Year, Runtime, Rating, Popularity, URL) → writes a formatted note.
+- **Movies Assistant** → prompts for a title → fetches details from IMDb (Title, Year, Runtime, Rating, Popularity, URL, Plot, Directors, Writers, Stars) → writes a formatted note.
 - **Temperature Assistant** → asks for City/Country → scrapes Google Weather (Temperature, Humidity, Status) → writes a formatted note.
 - Uses a shared module **`SaveResultToNotepad.xaml`** to persist results with timestamped filenames in `/Output`.
 
