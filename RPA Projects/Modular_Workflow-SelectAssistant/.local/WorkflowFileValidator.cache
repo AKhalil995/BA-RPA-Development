@@ -1,0 +1,26 @@
+Flowchart.xaml|638963853785731974
+Classic Implementation.xaml|638963249117070273
+Modern Implementation.xaml|638963836849044300
+Modules/Flowchart.xaml|638964020733724730
+Modules/ModernImplemetation.xaml|638963858934190770
+Modules/GetTempratureFromGoogle.xaml|638963931246151411
+Modules/GetCountry.xaml|638963898415748222
+Modules/SaveResultToNotepad.xaml|638964019984569661
+Modules/CheckTemprature.xaml|638964017706729924
+Modules/GetMovieFromIMDB.xaml|638964005988403580
+Modules/GetMovieQuery.xaml|638963941352507138
+Modules/CheckMovie.xaml|638964025434908572
+MovieAssistant/GetMovieQuery.xaml|638963941352507138
+TempAssistant/GetCountry.xaml|638963898415748222
+Main Flow.xaml|638964036108295488
+TempAssistant/CheckTemprature.xaml|638964028937015637
+MovieAssistant/CheckMovie.xaml|638964029037842534
+TempAssistant/GetTempratureFromGoogle.xaml|638963931246151411
+MovieAssistant/GetMovieFromIMDB.xaml|638964046171487807
+TempAssistant/GetCountry.xaml|638963898415748222
+TempAssistant/CheckTemprature.xaml|638964028937015637
+TempAssistant/GetTempratureFromGoogle.xaml|638963931246151411
+MovieAssistant/GetMovieQuery.xaml|638963941352507138
+Modules/SaveResultToNotepad.xaml|638964019984569661
+MovieAssistant/CheckMovie.xaml|638964870262286546
+MovieAssistant/GetMovieFromIMDB.xaml|638964916946393168

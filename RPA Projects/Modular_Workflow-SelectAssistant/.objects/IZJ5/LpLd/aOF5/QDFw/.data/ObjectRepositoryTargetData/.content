@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nn5ZSbA6VEqhkLq4v6CE_w" Reference="5h-T6yIFwk-dxPc1On4tBQ/QDFwA5b71E-Rj7j4-MJsRA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="imdb.com/title/tt1817273" CVScreenId="7ab3ef01-bc60-4ebb-9c3f-03772bc1fa5c" DesignTimeRectangle="1342, 229, 54, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='__next' tag='DIV' type='' class='sc-c5358bb8-1 ixcZce' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="082eccc7-d25a-405e-bba2-42a51d273293" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Place Beyond the Pines (2012) - IMDb' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1645430aad93fbdc53f50b6383e92eae.png" xmlns="">0OXuPBdpiB0S2ST4n_rCh4w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

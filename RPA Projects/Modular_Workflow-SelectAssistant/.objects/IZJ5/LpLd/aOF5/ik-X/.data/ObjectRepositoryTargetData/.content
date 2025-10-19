@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pCDyc6oaY0CyBPqzHIXzgg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="imdb.com/title/tt1817273" DesignTimeRectangle="225, 814, 813, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='presentation' idx='2' isleaf='1' parentid='__next' tag='SPAN' /&gt;" Guid="3d4edd77-a8b9-4891-b7f1-eada29d268f1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Place Beyond the Pines (2012) - IMDb' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="15710e5bd84e5ba08139dda171efc6b9.png" xmlns="">0L3mHaR5Qq06NLfbndCrhdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

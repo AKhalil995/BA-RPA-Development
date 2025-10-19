@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2y6YhOw0vU2BHau5YwmaEA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="imdb.com/title/tt1817273" CVScreenId="134624a3-23c7-4f1b-ac90-1bb0c45ae582" CvType="AnyWordGroup" DesignTimeRectangle="1096, 225, 59, 18" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="8e99ff2f-c97f-42d7-afd2-5ee1e927e73b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Place Beyond the Pines (2012) - IMDb' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="134624a3-23c7-4f1b-ac90-1bb0c45ae582" CvTextArea="1061, 204, 96, 12" CvTextArgument="IMDb RATING" CvType="Text" DesignTimeRectangle="1062, 203, 97, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='IMDb RATING' parentid='__next' tag='DIV' type='' class='sc-9d3bc82f-1 lhxLQH' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='IMDb RATING' /&gt;" Guid="ffe913b8-1554-4890-9ff4-04ef26d538c1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="134a8be7692dff8e13f4e7136cb3bebc.png" xmlns="">0PHVTS_UWoE-Ew8ZdLoVDYg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

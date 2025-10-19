@@ -1,0 +1,14 @@
+﻿{
+  "Name": "IMDb RATING",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "1_v591P-fkm7gPfQPosXhQ",
+  "Reference": "5h-T6yIFwk-dxPc1On4tBQ/1_v591P-fkm7gPfQPosXhQ",
+  "ParentRef": "5h-T6yIFwk-dxPc1On4tBQ/aOF51ggCdkyJ0iU6IKO3sA",
+  "Created": "2025-10-18T14:48:16.9399242Z",
+  "Updated": "2025-10-18T14:48:16.9399242Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

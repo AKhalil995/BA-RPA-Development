@@ -46,6 +46,8 @@
       <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -108,28 +110,34 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GetMovieFromIMDB" sap:VirtualizedContainerService.HintSize="901,819.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GetMovieFromIMDB" sap:VirtualizedContainerService.HintSize="1126,3847" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="GetMovieDetails" sap:VirtualizedContainerService.HintSize="590,2529" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="GetMovieDetails" sap:VirtualizedContainerService.HintSize="590,3824" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome IMDb Ratings, Reviews, and Where to Wa" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556,2469" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="24338753-01d7-408d-b420-05685d8ad513" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome IMDb Ratings, Reviews, and Where to Wa" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556,3741" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="24338753-01d7-408d-b420-05685d8ad513" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,2228" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="522,3500" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -145,9 +153,9 @@
                   </InArgument>
                 </uix:NTypeInto.Text>
               </uix:NTypeInto>
-              <uix:NCheckState DisplayName="Check App State 'The Place Beyond the Pi…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,1915" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="24338753-01d7-408d-b420-05685d8ad513" Version="V5">
+              <uix:NCheckState DisplayName="Check App State 'The Place Beyond the Pi…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="488,3187" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="24338753-01d7-408d-b420-05685d8ad513" Version="V5">
                 <uix:NCheckState.IfExists>
-                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,1632" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="486,2904" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="tempUrl" />
                     </Sequence.Variables>
@@ -171,9 +179,9 @@
                         </uix:VerifyExecutionOptions>
                       </uix:NClick.VerifyOptions>
                     </uix:NClick>
-                    <uix:NCheckState DisplayName="Check App State 'The Place Beyond the Pi…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,1345" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="24338753-01d7-408d-b420-05685d8ad513" Version="V5">
+                    <uix:NCheckState DisplayName="Check App State 'The Place Beyond the Pi…(1)'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,2617" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="24338753-01d7-408d-b420-05685d8ad513" Version="V5">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,1064" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,2336" sap2010:WorkflowViewState.IdRef="Sequence_6">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="CurrentUrl" />
                             <Variable x:TypeArguments="x:String" Name="tempTitle" />
@@ -182,6 +190,10 @@
                             <Variable x:TypeArguments="x:String" Name="tempRating" />
                             <Variable x:TypeArguments="x:String" Name="tempPopularity" />
                             <Variable x:TypeArguments="x:String" Name="tempUrl" />
+                            <Variable x:TypeArguments="x:String" Name="tempPlotLine" />
+                            <Variable x:TypeArguments="x:String" Name="tempDirector" />
+                            <Variable x:TypeArguments="x:String" Name="tempWriters" />
+                            <Variable x:TypeArguments="x:String" Name="tempStars" />
                           </Sequence.Variables>
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -230,7 +242,7 @@
                             <uix:NGetText.Target>
                               <uix:TargetAnchorable BrowserURL="imdb.com/title/tt1817273" CVScreenId="134624a3-23c7-4f1b-ac90-1bb0c45ae582" ContentHash="2y6YhOw0vU2BHau5YwmaEA" CvType="AnyWordGroup" DesignTimeRectangle="1096, 225, 59, 18" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="8e99ff2f-c97f-42d7-afd2-5ee1e927e73b" InformativeScreenshot="134a8be7692dff8e13f4e7136cb3bebc.png" Reference="5h-T6yIFwk-dxPc1On4tBQ/1_v591P-fkm7gPfQPosXhQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Place Beyond the Pines (2012) - IMDb' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="134624a3-23c7-4f1b-ac90-1bb0c45ae582" CvTextArea="1061, 204, 96, 12" CvTextArgument="IMDb RATING" CvType="Text" DesignTimeRectangle="1062, 203, 97, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='IMDb RATING' parentid='__next' tag='DIV' type='' class='sc-9d3bc82f-1 lhxLQH' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='IMDb RATING' /&gt;" Guid="ffe913b8-1554-4890-9ff4-04ef26d538c1" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
@@ -252,6 +264,110 @@
                               </OutArgument>
                             </uix:NGetText.TextString>
                           </uix:NGetText>
+                          <uix:NGetText DisplayName="Get Text 'PlotLine'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="24338753-01d7-408d-b420-05685d8ad513" Version="V5">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="imdb.com/title/tt1817273" ContentHash="pCDyc6oaY0CyBPqzHIXzgg" DesignTimeRectangle="225, 814, 813, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='presentation' idx='2' isleaf='1' parentid='__next' tag='SPAN' /&gt;" Guid="3d4edd77-a8b9-4891-b7f1-eada29d268f1" InformativeScreenshot="15710e5bd84e5ba08139dda171efc6b9.png" Reference="5h-T6yIFwk-dxPc1On4tBQ/ik-XvZIJWU2pATIA-nuWlQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Place Beyond the Pines (2012) - IMDb' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NGetText.Target>
+                            <uix:NGetText.TextString>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">tempPlotLine</CSharpReference>
+                              </OutArgument>
+                            </uix:NGetText.TextString>
+                          </uix:NGetText>
+                          <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_2">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_13">tempPlotLine</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">tempPlotLine.Trim()</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <uix:NGetText DisplayName="Get Text 'Director'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="24338753-01d7-408d-b420-05685d8ad513" Version="V5">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="imdb.com/title/tt1817273" CVScreenId="0a6738cd-c117-4731-b1eb-79c863862952" ContentHash="EzAf2V4mCkecyBW6Z6BQMA" DesignTimeRectangle="225, 822, 813, 33" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;ul&amp;gt;li' tag='LI' /&gt;" Guid="45aba708-1e98-4748-ba9e-a6a9b730e7a5" InformativeScreenshot="0135664c1d68885b76e3241be838d1ee.png" Reference="5h-T6yIFwk-dxPc1On4tBQ/wrsxctIA1kiOXv9QSMX9Rw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Place Beyond the Pines (2012) - IMDb' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NGetText.Target>
+                            <uix:NGetText.TextString>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">tempDirector</CSharpReference>
+                              </OutArgument>
+                            </uix:NGetText.TextString>
+                          </uix:NGetText>
+                          <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_3">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_14">tempDirector</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">System.Text.RegularExpressions.Regex.Replace(tempDirector.Replace("Directors"," ").Replace("Director"," ").Replace(":"," ").Trim(), "(?&lt;=[a-z])(?=[A-Z])", Environment.NewLine).Trim()</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <uix:NGetText DisplayName="Get Text 'Writers'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="24338753-01d7-408d-b420-05685d8ad513" Version="V5">
+                            <uix:NGetText.ScrapingOptions>
+                              <InArgument x:TypeArguments="uix:NScrapingOptions">
+                                <CSharpValue x:TypeArguments="uix:NScrapingOptions" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">UiPath.UIAutomationNext.Enums.NScrapingOptions.AllowFormatting</CSharpValue>
+                              </InArgument>
+                            </uix:NGetText.ScrapingOptions>
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="imdb.com/title/tt1817273" CVScreenId="49829d3e-4913-4c83-b3d4-b53b40e11960" ContentHash="oxR-CT_r-0yF5Dgv5dGSXQ" DesignTimeRectangle="225, 855, 813, 34" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='presentation' css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;ul&amp;gt;li' idx='2' tag='LI' /&gt;" Guid="c256c353-413c-4a75-a060-7e361144c599" InformativeScreenshot="907926b9e2f7030e2f7a885df6ed50de.png" Reference="5h-T6yIFwk-dxPc1On4tBQ/YIkM584ik0S36WjD4sF0CQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Place Beyond the Pines (2012) - IMDb' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NGetText.Target>
+                            <uix:NGetText.TextString>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_11">tempWriters</CSharpReference>
+                              </OutArgument>
+                            </uix:NGetText.TextString>
+                          </uix:NGetText>
+                          <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_4">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_15">tempWriters</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30" xml:space="preserve">System.Text.RegularExpressions.Regex.Replace(
+tempWriters.Replace("Writers"," ").Replace("Writer"," ").Replace(":"," ").Trim(), 
+"(?&lt;=[a-z])(?=[A-Z])", Environment.NewLine).Trim()</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <uix:NGetText DisplayName="Get Text 'Stars'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NGetText_11" ScopeIdentifier="24338753-01d7-408d-b420-05685d8ad513" Version="V5">
+                            <uix:NGetText.ScrapingOptions>
+                              <InArgument x:TypeArguments="uix:NScrapingOptions">
+                                <CSharpValue x:TypeArguments="uix:NScrapingOptions" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">UiPath.UIAutomationNext.Enums.NScrapingOptions.AllowFormatting</CSharpValue>
+                              </InArgument>
+                            </uix:NGetText.ScrapingOptions>
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="imdb.com/title/tt1817273" CVScreenId="af227733-4c78-4d21-85ba-1fc24337ab67" ContentHash="5qTscSvTZE221_n7mpPvZg" DesignTimeRectangle="275, 946, 737, 25" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ipc-metadata-list-item__content-container' idx='3' parentid='__next' tag='DIV' /&gt;" Guid="1054e784-5d64-4ab5-83da-455e0717e079" InformativeScreenshot="314fe39fc7abc7558c4dedbb36762372.png" Reference="5h-T6yIFwk-dxPc1On4tBQ/WnPCJ_IKF0m3A628G0fPMw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Place Beyond the Pines (2012) - IMDb' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NGetText.Target>
+                            <uix:NGetText.TextString>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_18">tempStars</CSharpReference>
+                              </OutArgument>
+                            </uix:NGetText.TextString>
+                          </uix:NGetText>
+                          <Assign sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_5">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">tempStars</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31" xml:space="preserve">System.Text.RegularExpressions.Regex.Replace(
+    tempStars.Replace("Stars"," ").Replace("Star"," ").Replace(":"," ").Trim(),
+    "(?&lt;=[a-z])(?=[A-Z])",
+    Environment.NewLine
+).Trim()</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
                           <uix:NGetUrl DisplayName="Get URL" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="NGetUrl_1" ScopeIdentifier="24338753-01d7-408d-b420-05685d8ad513" Version="V5">
                             <uix:NGetUrl.CurrentUrl>
                               <OutArgument x:TypeArguments="x:String">
@@ -272,7 +388,20 @@
                             </Assign.To>
                             <Assign.Value>
                               <InArgument x:TypeArguments="scg:Dictionary(x:String, x:String)">
-                                <CSharpValue x:TypeArguments="scg:Dictionary(x:String, x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">new System.Collections.Generic.Dictionary&lt;string,string&gt;(new System.Collections.Generic.KeyValuePair&lt;string,string&gt;[] { new System.Collections.Generic.KeyValuePair&lt;string,string&gt;("Query", (in_strMovieQuery ?? "").Trim()), new System.Collections.Generic.KeyValuePair&lt;string,string&gt;("Title", (tempTitle ?? "").Trim()), new System.Collections.Generic.KeyValuePair&lt;string,string&gt;("Year", (tempYear ?? "").Trim()), new System.Collections.Generic.KeyValuePair&lt;string,string&gt;("Runtime", (tempRuntime ?? "").Trim()), new System.Collections.Generic.KeyValuePair&lt;string,string&gt;("Rating", (tempRating ?? "").Trim()), new System.Collections.Generic.KeyValuePair&lt;string,string&gt;("Popularity", (tempPopularity ?? "").Trim()), new System.Collections.Generic.KeyValuePair&lt;string,string&gt;("Url", (CurrentUrl ?? "").Trim()), new System.Collections.Generic.KeyValuePair&lt;string,string&gt;("Status", string.IsNullOrWhiteSpace(tempTitle) ? "NotFound" : "OK") }, System.StringComparer.OrdinalIgnoreCase)</CSharpValue>
+                                <CSharpValue x:TypeArguments="scg:Dictionary(x:String, x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12" xml:space="preserve">new System.Collections.Generic.Dictionary&lt;string,string&gt; {
+  {"Query",      in_strMovieQuery.Trim()},
+  {"Title",      tempTitle.Trim()},
+  {"Year",       tempYear.Trim()},
+  {"Runtime",    tempRuntime.Trim()},
+  {"Rating",     tempRating.Trim()},
+  {"Popularity", tempPopularity.Trim()},
+  {"Url",        CurrentUrl.Trim()},
+  {"Plot",       tempPlotLine},
+  {"Directors",  tempDirector},
+  {"Writers",    tempWriters},
+  {"Stars",      tempStars},
+  {"Status",     "OK"}
+}</CSharpValue>
                               </InArgument>
                             </Assign.Value>
                           </Assign>

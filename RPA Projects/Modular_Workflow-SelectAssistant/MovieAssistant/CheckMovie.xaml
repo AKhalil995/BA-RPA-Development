@@ -88,7 +88,7 @@
       <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="CheckMovie" sap:VirtualizedContainerService.HintSize="919,718" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="CheckMovie" sap:VirtualizedContainerService.HintSize="1132,718" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="strFilePath" />
       <Variable x:TypeArguments="x:String" Name="strTextToSave" />
@@ -125,7 +125,16 @@
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="x:String">
-          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">string.Concat("Title: ", (dictMovie != null &amp;&amp; dictMovie.ContainsKey("Title") ? dictMovie["Title"] : null) ?? strMovieQuery ?? "", Environment.NewLine, "Year: ", (dictMovie != null &amp;&amp; dictMovie.ContainsKey("Year") ? dictMovie["Year"] : null) ?? "", Environment.NewLine, "Runtime: ", (dictMovie != null &amp;&amp; dictMovie.ContainsKey("Runtime") ? dictMovie["Runtime"] : null) ?? "", Environment.NewLine, "Rating: ", (dictMovie != null &amp;&amp; dictMovie.ContainsKey("Rating") ? dictMovie["Rating"] : null) ?? "", Environment.NewLine, "Popularity: ", (dictMovie != null &amp;&amp; dictMovie.ContainsKey("Popularity") ? dictMovie["Popularity"] : null) ?? "", Environment.NewLine, "Url: ", (dictMovie != null &amp;&amp; dictMovie.ContainsKey("Url") ? dictMovie["Url"] : null) ?? "")</CSharpValue>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9" xml:space="preserve">"Title: " + dictMovie["Title"] + Environment.NewLine +
+"Year: " + dictMovie["Year"] + Environment.NewLine +
+"Runtime: " + dictMovie["Runtime"] + Environment.NewLine +
+"Rating: " + dictMovie["Rating"] + Environment.NewLine +
+"Popularity: " + dictMovie["Popularity"] + Environment.NewLine +
+"URL: " + dictMovie["Url"] + Environment.NewLine + Environment.NewLine +
+"Plot:" + Environment.NewLine + dictMovie["Plot"] + Environment.NewLine + Environment.NewLine +
+"Director(s):" + Environment.NewLine + dictMovie["Directors"]   + Environment.NewLine + Environment.NewLine +
+"Writer(s):"   + Environment.NewLine +dictMovie["Writers"] + Environment.NewLine + Environment.NewLine +
+"Star(s):" + Environment.NewLine + dictMovie["Stars"]</CSharpValue>
         </InArgument>
       </Assign.Value>
     </Assign>
@@ -137,7 +146,9 @@
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="x:String">
-          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">System.IO.Path.Combine(Environment.CurrentDirectory, "Output", string.Format("Movie - {0} - {1}.txt", (dictMovie != null &amp;&amp; dictMovie.ContainsKey("Title") ? dictMovie["Title"] : null) ?? strMovieQuery ?? "Unknown", DateTime.Now.ToString("yyyy-MM-dd--HH-mm-ss")))</CSharpValue>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8" xml:space="preserve">System.IO.Path.Combine(Environment.CurrentDirectory, "Output",
+string.Format("Movie - {0} - {1}.txt", 
+	(dictMovie != null &amp;&amp; dictMovie.ContainsKey("Title") ? dictMovie["Title"] : null) ?? strMovieQuery ?? "Unknown", DateTime.Now.ToString("yyyy-MM-dd--HH-mm-ss")))</CSharpValue>
         </InArgument>
       </Assign.Value>
     </Assign>

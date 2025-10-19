@@ -1,0 +1,14 @@
+﻿{
+  "Name": "temp",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "bGCouS7FEEKpi8Hu_sPNQA",
+  "Reference": "5h-T6yIFwk-dxPc1On4tBQ/bGCouS7FEEKpi8Hu_sPNQA",
+  "ParentRef": "5h-T6yIFwk-dxPc1On4tBQ/5eN3_8rHX0WFnO3xQrjg8g",
+  "Created": "2025-10-17T21:23:50.4498679Z",
+  "Updated": "2025-10-17T21:23:50.4498679Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

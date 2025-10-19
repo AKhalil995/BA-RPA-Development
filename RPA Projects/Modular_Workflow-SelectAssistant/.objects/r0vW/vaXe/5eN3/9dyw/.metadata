@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Humidity",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "9dyw5LcliEmWmSZ2VOSUuw",
+  "Reference": "5h-T6yIFwk-dxPc1On4tBQ/9dyw5LcliEmWmSZ2VOSUuw",
+  "ParentRef": "5h-T6yIFwk-dxPc1On4tBQ/5eN3_8rHX0WFnO3xQrjg8g",
+  "Created": "2025-10-17T14:22:50.2410513Z",
+  "Updated": "2025-10-17T15:59:38.7198893Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

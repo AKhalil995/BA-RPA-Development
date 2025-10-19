@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TqRUNjTZw0uZ50U5zlxXnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="imdb.com/title/tt0068646" CVScreenId="2de58799-072d-435a-a8ef-c20b15f864ed" CvType="AnyWordGroup" DesignTimeRectangle="225, 253, 32, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='__next' tag='A' type='' class='ipc-link ipc-link--baseAlt ipc-link--inherit-color' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="92360169-5391-4f16-ba8e-dd20f4b6e259" ScopeSelectorArgument="&lt;html app='chrome.exe' title='The Godfather (1972) - IMDb' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="8, 95, 1665, 56" ElementType="Container" FuzzySelectorArgument="&lt;webctrl id='imdbHeader' tag='NAV' type='' class='sc-d620d5d7-0 bOvdLf imdb-header celwidget' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Menu&amp;#xA;All&amp;#xA;8 suggestions available&amp;#xA;Watchlist&amp;#xA;Sign in&amp;#xA;EN' /&gt;" Guid="d6a3e7f8-677f-4a3e-8df6-fc1694e0da83" SearchSteps="FuzzySelector" />
+          <Target CVScreenId="2de58799-072d-435a-a8ef-c20b15f864ed" CvTextArea="933, 166, 472, 17" CvTextArgument="Cast &amp; crew . User reviews . Trivia . FAQ IMDbPro 0Q All topics" CvType="Text" DesignTimeRectangle="209, 151, 1260, 48" FuzzySelectorArgument="&lt;webctrl type='' parentid='__next' tag='DIV' class='sc-9194d746-1 GMNJs' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cast &amp;amp; crew&amp;#xA;User reviews&amp;#xA;Trivia&amp;#xA;FAQ&amp;#xA;IMDbPro&amp;#xA;All topics' /&gt;" Guid="3f348f3c-a65b-4a3e-b955-45826609fb3d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6973c030af5058e2772c08ffd7bf291c.png" xmlns="">0L3Qgi9ueO0qxIMc0F0VDxQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
