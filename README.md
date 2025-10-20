@@ -54,7 +54,6 @@ Logs into the **ACME Test** site, navigates to **Work Items**, extracts all page
 `ACME_Workflow.xaml` (entry), `OpenAcme.xaml`, `GoToWorkItems.xaml`, `ExtractAllPages.xaml`, `Modules/SaveResultToNotepad.xaml`
 
 **Folder:** [`RPA Projects/ACME`](RPA%20Projects/ACME/)
-
 **Run**
 
 1. Open the ACME project in UiPath Studio and **Set Entry Point** to `ACME_Workflow.xaml`.
