@@ -129,10 +129,10 @@ _(click any image to open the official verification page)_
 
 ### Certificates (PDFs)
 
-| Title | Issuer | Issued | Link | Verify |
-|---|---|---:|---|---|
-| HTML & CSS | MaharaTech | — | [PDF](<Certificates & Badges/Ahmed Khalil - Html&CSS - MaharaTech Cert.pdf>) | — |
-| C# (Basic) | HackerRank | — | [PDF](<Certificates & Badges/C_sharp (Basic) Certificate - HackerRank.pdf>) | [*Verify*](https://www.hackerrank.com/certificates/e3f03e3fa969) |
-| Python (Basic) | HackerRank | — | [PDF](<Certificates & Badges/Python (Basic) Certificate - HackerRank.pdf>) | [*Verify*](https://www.hackerrank.com/certificates/bf56e7d36a2f) |
-| **Introduction to Cybersecurity** | **Cisco Networking Academy** | **Aug 23, 2022** | [PDF](<Certificates & Badges/I2CSUpdate20251001-31-j8t3l9.pdf>) | QR code on certificate |
-| **Networking Basics** | **Cisco Networking Academy** | **Dec 03, 2022** | [PDF](<Certificates & Badges/NetworkingBasicsUpdate20251001-30-teqsep.pdf>) | QR code on certificate |
+| Title                             | Issuer                       |           Issued | Link                                                                         | Verify                                                           |
+| --------------------------------- | ---------------------------- | ---------------: | ---------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| HTML & CSS                        | MaharaTech                   |                — | [PDF](<Certificates & Badges/Ahmed Khalil - Html&CSS - MaharaTech Cert.pdf>) | —                                                                |
+| C# (Basic)                        | HackerRank                   |                — | [PDF](<Certificates & Badges/C_sharp (Basic) Certificate - HackerRank.pdf>)  | [_Verify_](https://www.hackerrank.com/certificates/e3f03e3fa969) |
+| Python (Basic)                    | HackerRank                   |                — | [PDF](<Certificates & Badges/Python (Basic) Certificate - HackerRank.pdf>)   | [_Verify_](https://www.hackerrank.com/certificates/bf56e7d36a2f) |
+| **Introduction to Cybersecurity** | **Cisco Networking Academy** | **Aug 23, 2022** | [PDF](<Certificates & Badges/I2CSUpdate20251001-31-j8t3l9.pdf>)              | QR code on certificate                                           |
+| **Networking Basics**             | **Cisco Networking Academy** | **Dec 03, 2022** | [PDF](<Certificates & Badges/NetworkingBasicsUpdate20251001-30-teqsep.pdf>)  | QR code on certificate                                           |
