@@ -53,7 +53,7 @@ Logs into the **ACME Test** site, navigates to **Work Items**, extracts all page
 **Files (entry & modules)**  
 `ACME_Workflow.xaml` (entry), `OpenAcme.xaml`, `GoToWorkItems.xaml`, `ExtractAllPages.xaml`, `Modules/SaveResultToNotepad.xaml`
 
-**Folder:** [`RPA Projects/ACME`](RPA%20Projects/ACME/) _(adjust if your repo uses a different path)_
+**Folder:** [`RPA Projects/ACME`](RPA%20Projects/ACME/)
 
 **Run**
 
