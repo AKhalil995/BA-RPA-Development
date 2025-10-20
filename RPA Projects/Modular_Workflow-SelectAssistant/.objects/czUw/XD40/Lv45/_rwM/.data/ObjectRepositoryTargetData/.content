@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xHncc6MbYkiDAiDzww4h2w" Reference="5h-T6yIFwk-dxPc1On4tBQ/_rwMWGO_kE2DUTJtUfsYMA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items" DesignTimeRectangle="805, 930, 535, 22" ElementType="Container" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='page-numbers' tag='UL' /&gt;" FuzzySelectorArgument="&lt;webctrl class='pag*' tag='UL' /&gt;" Guid="4b2ae5c5-fae4-4654-94cc-6fb913d67bd9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ed0afaaeafd9f7137580fb35b082704d.png" xmlns="">0TAGRGdFzMU61kOyuqJFGxg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

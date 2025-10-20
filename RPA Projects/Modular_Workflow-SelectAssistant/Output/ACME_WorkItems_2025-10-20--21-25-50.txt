@@ -1,0 +1,140 @@
+107813653,Verify Account Position,WI1,Open,2018-10-22
+107813577,Generate Yearly Report for Vendor,WI4,Open,2025-04-02
+107813627,Research Client Check Copy,WI2,Open,2018-08-29
+107813623,Research Client Check Copy,WI2,Open,2023-09-03
+107813593,Process Vendor Invoice,WI3,Open,2023-04-28
+107813687,Verify Account Position,WI1,Open,2022-07-25
+107813598,Process Vendor Invoice,WI3,Open,2018-05-06
+107813658,Verify Account Position,WI1,Open,2020-09-25
+107813603,Research Client Check Copy,WI2,Open,2019-06-16
+107813559,Calculate Client Security Hash,WI5,Open,2025-07-10
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27
+107813570,Calculate Client Security Hash,WI5,Open,2024-02-09
+107813633,Research Client Check Copy,WI2,Open,2021-05-02
+107813589,Process Vendor Invoice,WI3,Open,2024-04-11
+107813640,Research Client Check Copy,WI2,Open,2017-10-08
+107813643,Research Client Check Copy,WI2,Open,2017-11-04
+107813650,Research Client Check Copy,WI2,Open,2018-04-05
+107813644,Research Client Check Copy,WI2,Open,2019-06-20
+107813572,Calculate Client Security Hash,WI5,Open,2017-07-07
+107813555,Calculate Client Security Hash,WI5,Open,2023-06-23
+107813614,Research Client Check Copy,WI2,Open,2022-03-27

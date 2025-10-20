@@ -92,7 +92,7 @@
       <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SaveResultToNotepad" sap:VirtualizedContainerService.HintSize="925,661.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="SaveResultToNotepad" sap:VirtualizedContainerService.HintSize="993,661.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -105,17 +105,17 @@
         </InArgument>
       </ui:CreateDirectory.Path>
     </ui:CreateDirectory>
-    <ui:WriteTextFile File="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" Encoding="0" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="WriteTextFile_1">
-      <ui:WriteTextFile.FileName>
+    <ui:AppendLine File="{x:Null}" DisplayName="Append Line" sap:VirtualizedContainerService.HintSize="450,158" sap2010:WorkflowViewState.IdRef="AppendLine_1" UseDefaultEncoding="True">
+      <ui:AppendLine.FileName>
         <InArgument x:TypeArguments="x:String">
-          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">in_strFilePath</CSharpValue>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">in_strFilePath</CSharpValue>
         </InArgument>
-      </ui:WriteTextFile.FileName>
-      <ui:WriteTextFile.Text>
+      </ui:AppendLine.FileName>
+      <ui:AppendLine.Text>
         <InArgument x:TypeArguments="x:String">
-          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">in_strTextToSave</CSharpValue>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">in_strTextToSave</CSharpValue>
         </InArgument>
-      </ui:WriteTextFile.Text>
-    </ui:WriteTextFile>
+      </ui:AppendLine.Text>
+    </ui:AppendLine>
   </Sequence>
 </Activity>

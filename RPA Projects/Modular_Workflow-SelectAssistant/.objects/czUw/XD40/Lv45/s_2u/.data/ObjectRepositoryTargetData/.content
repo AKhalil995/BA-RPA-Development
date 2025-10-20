@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ORpbI_cqJkKQSwZ63BjSmg" Reference="5h-T6yIFwk-dxPc1On4tBQ/s_2ujupZ0Eiot3BgAf4AMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/work-items" CVScreenId="4e28a997-ed63-4e24-beeb-0e946731b431" CvElementArea="806, 927, 29, 28" CvType="Icon" DesignTimeRectangle="810, 930, 22, 22" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="75e92096-945e-42f1-8b4e-a312c0e3f97a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD1SURBVEhLxZaBCoMwDET3/38qKghKR6k045RJTbI2ypYdHEhN87BNWh/kpAcf+JWaoJwzhRBomibq+566rtuMZ4zhHWJaqoKWZTkSt4zYmlRQSonGcRTJWsYczNUkQAgchkEksRpzNZgA3fkSbuTgOoGu7EnLfM8OECqHB3/yHDPRGsQ4d1mNBwhlygM1bxDIAEJOAUJP8MCT50g7IlFabSDkFKCyGVXPkeJzfw5GEHIKEA+q2QqC/wdqLl1hK0hdumYx3ACpxWAtb9gKUsv7SsNaQWrDQi5H0Fsuhyrkdk1ALhdfqSt7xveEqwqCXH5Ovik30AtxLild21L1vAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.FullSelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">string.Format("&lt;webctrl aaname='{0}' tag='A' class='pag*' /&gt;", p)</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="dee802ea2ea1df00cefc3e2a012fe310.png" xmlns="">0E_ypD0_WqUWZPKtqA_VBHw</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData DefaultValue="*" Name="p" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

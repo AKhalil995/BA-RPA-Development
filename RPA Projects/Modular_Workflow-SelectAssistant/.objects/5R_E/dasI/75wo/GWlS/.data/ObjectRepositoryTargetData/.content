@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GYEzUB1f50KovaIzOZ8d3g" Reference="5h-T6yIFwk-dxPc1On4tBQ/GWlSoZ5klkS4fe1H_VLE3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="editorial.rottentomatoes.com/guide/best-movies-of-all-time" DesignTimeRectangle="411, -360, 534, 276" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='article_main_body' tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="4def3b25-765e-432a-8f7d-ebf6356ece61" ScopeSelectorArgument="&lt;html app='chrome.exe' title='300 Best Movies of All Time | Rotten Tomatoes' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="411, 248, 534, 1125" FullSelectorArgument="&lt;webctrl idx='2' parentid='article_main_body' tag='TABLE' /&gt;&lt;webctrl tag='TBODY' /&gt;" Guid="28ebb2a3-2ee0-46b5-be94-98c4eb1478ac" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="176dbbbf45701616cf968d8d55614cf3.png" xmlns="">0n29Kww3-ykq-bs8zPStwLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

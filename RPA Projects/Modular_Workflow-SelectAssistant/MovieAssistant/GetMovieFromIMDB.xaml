@@ -118,7 +118,7 @@
       <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GetMovieFromIMDB" sap:VirtualizedContainerService.HintSize="1126,3847" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GetMovieFromIMDB" sap:VirtualizedContainerService.HintSize="907,3847" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>

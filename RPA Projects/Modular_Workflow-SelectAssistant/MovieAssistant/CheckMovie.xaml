@@ -88,7 +88,7 @@
       <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="CheckMovie" sap:VirtualizedContainerService.HintSize="1132,718" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="CheckMovie" sap:VirtualizedContainerService.HintSize="907,718" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="strFilePath" />
       <Variable x:TypeArguments="x:String" Name="strTextToSave" />
