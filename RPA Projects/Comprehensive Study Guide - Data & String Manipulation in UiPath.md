@@ -2,16 +2,16 @@
 
 ## Table of Contents
 
-1. [Core Concepts & Philosophy](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#core-concepts)
-2. [Built-in UiPath Activities](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#builtin-activities)
-3. [.NET String Manipulation](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#net-strings)
-4. [Regular Expressions (Regex)](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#regex)
-5. [LINQ Queries](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#linq)
-6. [DataTable Operations](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#datatables)
-7. [Practical Use Cases](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#use-cases)
-8. [Best Practices & Decision Framework](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#best-practices)
-9. [Code Examples & Exercises](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#examples)
-10. [Troubleshooting & Common Pitfalls](https://claude.ai/chat/e82cf5d5-38e8-45d8-985c-1a72536bad56#troubleshooting)
+1. Core Concepts & Philosophy
+2. Built-in UiPath Activities
+3. .NET String Manipulation
+4. Regular Expressions (Regex)
+5. LINQ Queries
+6. DataTable Operations
+7. Practical Use Cases
+8. Best Practices & Decision Framework
+9. Code Examples & Exercises
+10. Troubleshooting
 
 ---
 
