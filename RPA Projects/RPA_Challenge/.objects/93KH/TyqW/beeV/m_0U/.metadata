@@ -1,0 +1,13 @@
+﻿{
+  "Name": "pane Sheet Sheet1",
+  "Type": "Element",
+  "Id": "m_0UISKgMUKrnh0tmc_BFw",
+  "Reference": "cBcVkzXkr0mrIcvJ0C9Qdg/m_0UISKgMUKrnh0tmc_BFw",
+  "ParentRef": "cBcVkzXkr0mrIcvJ0C9Qdg/beeVXPOTbUGGJA0kQmnhFw",
+  "Created": "2025-10-24T11:22:36.5991057Z",
+  "Updated": "2025-10-24T11:22:36.5991057Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

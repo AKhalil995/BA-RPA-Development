@@ -9,6 +9,39 @@ A personal workspace for RPA learning and proofs-of-concept + a curated list of 
 
 ## RPA Projects
 
+### RPA Challenge — Dynamic Form Filler (Modern UiPath)
+
+Solves the classic **RPA Challenge** dynamic input form (10 shuffled rounds) **purely with Modern activities** and anchor‑by‑label targeting. The workflow reads the provided Excel, then types each value into the correct field even as positions change between rounds.
+
+**What it does**
+
+- `DownloadAndMoveExcel.xaml` → downloads the challenge Excel and exposes its path via `out_ExcelPath` (uses `in_ChallengeURL`).
+- `ReadExcelData.xaml` → reads the Excel into a `DataTable` (`in_ExcelPath` → `out_DataTable`).
+- `ProcessFormData.xaml` → opens the challenge page (`in_ChallengeURL`), loops the data, and **types into inputs anchored to their labels**; handles all **10 rounds** reliably.
+- `Main.xaml` orchestrates the end‑to‑end run and structured logging.
+
+**Files (entry & modules)**  
+`Main.xaml` (entry), `DownloadAndMoveExcel.xaml` , `ReadExcelData.xaml`, `ProcessFormData.xaml`
+
+**Arguments**
+
+- `DownloadAndMoveExcel.xaml`: `in_ChallengeURL` (In, String), `out_ExcelPath` (Out, String)
+- `ReadExcelData.xaml`: `in_ExcelPath` (In, String), `out_DataTable` (Out, DataTable)
+- `ProcessFormData.xaml`: `in_ChallengeURL` (In, String), `in_DataTable` (In, DataTable)
+
+**Run**
+
+1. Open the project in **UiPath Studio** and set **`Main.xaml`** as the entry point.
+2. Make sure `in_ChallengeURL` points to the challenge page.
+3. If you already have the Excel, **skip** the download step and pass its path to `ReadExcelData.xaml` (`in_ExcelPath`).
+4. Click **Run**. The bot fills all rounds using Modern selectors with label anchors.
+
+**Tech highlights**
+
+- 100% **Modern** activities (no script injection)
+- Robust **anchor‑by‑label** strategy for shuffled fields
+- Modular XAMLs with clear **In/Out** arguments and centralized orchestration
+
 ### Weather Bot (UiPath)
 
 Prompts for a city/country → searches Google Weather → extracts **Temperature**, **Humidity**, **Status** → writes a note in **Notepad** and saves it as  
