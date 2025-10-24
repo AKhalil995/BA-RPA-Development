@@ -42,6 +42,57 @@ Solves the classic **RPA Challenge** dynamic input form (10 shuffled rounds) **p
 - Robust **anchor‑by‑label** strategy for shuffled fields
 - Modular XAMLs with clear **In/Out** arguments and centralized orchestration
 
+---
+
+### ACME System — Work Items Automation & Regex Table Extraction (UiPath)
+
+End‑to‑end **ACME System** workflow that logs in, navigates to **Work Items**, parses tables using **Invoke Code (C#)** with string/regex methods, and exports structured results. Designed to showcase **Modern UiPath** activities with code‑only parsing where appropriate.
+
+**What it does**
+
+- `OpenAcme.xaml` → launches ACME URL and performs login if needed.
+- `GoToWorkItems.xaml` → navigates to the Work Items listing and applies filters/pagination if required.
+- `ExtractTables_Code.xaml` → scrapes the HTML/text and **parses rows in code** (C#) via regex/string methods; outputs a clean table (e.g., CSV/DataTable).
+- `SaveResultToNotepad.xaml` → persists the processed results to a .txt file for quick verification.
+- `ACME_Workflow.xaml` → orchestrator that calls the above modules, sets arguments, and handles logging.
+
+**Files (entry & modules)**  
+`ACME_Workflow.xaml` (entry), `OpenAcme.xaml`, `GoToWorkItems.xaml`, `ExtractTables_Code.xaml`, `SaveResultToNotepad.xaml`
+
+**Arguments discovered from XAML**
+
+- **ACME_Workflow.xaml**
+  - `in_intTotalPages` (In, x:Int32)
+  - `in_strPassword` (In, x:String)
+  - `in_strUsername` (In, x:String)
+- **ExtractTables_Code.xaml**
+  - `tableText` (In, x:String)
+  - `totalPages` (InOut, x:Int32)
+  - `in_intTotalPages` (In, x:Int32)
+  - `sb` (InOut, st:StringBuilder)
+  - `out_strTextToSave` (Out, x:String)
+- **OpenAcme.xaml**
+  - `in_strPassword` (In, x:String)
+  - `in_strUsername` (In, x:String)
+- **SaveResultToNotepad.xaml**
+  - `in_strTextToSave` (In, x:String)
+  - `in_strFilePath` (In, x:String)
+
+**Run**
+
+1. Open in **UiPath Studio**, set **`ACME_Workflow.xaml`** as the entry point.
+2. Ensure `in_AcmeUrl`, credentials, and output paths (if present) are set in project arguments/Config.
+3. Run. The workflow opens ACME, navigates to Work Items, extracts table content via code, and saves results (e.g., CSV or .txt).
+
+**Tech highlights**
+
+- Modern activities for UI reliability (no legacy selectors).
+- **Code‑only parsing** of tabular text using C# string/regex in `ExtractTables_Code.xaml`.
+- Modular XAMLs with clear responsibilities and argument flow.
+- Suitable as a **study guide** for advanced string/regex parsing within UiPath.
+
+---
+
 ### Weather Bot (UiPath)
 
 Prompts for a city/country → searches Google Weather → extracts **Temperature**, **Humidity**, **Status** → writes a note in **Notepad** and saves it as  

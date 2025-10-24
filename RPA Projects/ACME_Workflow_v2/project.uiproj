@@ -1,0 +1,6 @@
+{
+  "Name": "ACME_Workflow_v2",
+  "ProjectType": "Process",
+  "Description": "Different approach\r\n",
+  "MainFile": "ACME_Workflow.xaml"
+}

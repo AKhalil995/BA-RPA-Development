@@ -1,0 +1,27 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "ACME_Workflow.xaml",
+      "uniqueId": "e03808b9-d38e-4223-9c2b-66b7e68fbba9",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_intTotalPages": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          },
+          "in_strPassword": {
+            "type": "string"
+          },
+          "in_strUsername": {
+            "type": "string"
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}

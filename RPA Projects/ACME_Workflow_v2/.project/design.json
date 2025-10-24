@@ -1,0 +1,13 @@
+{
+  "Tags": [
+    {
+      "Key": "UiPath"
+    },
+    {
+      "Key": "ITI"
+    }
+  ],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": true,
+  "ConnectorKeys": []
+}
