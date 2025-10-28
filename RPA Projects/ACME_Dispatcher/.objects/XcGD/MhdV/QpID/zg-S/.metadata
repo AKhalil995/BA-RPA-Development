@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Extract data from ACME website",
+  "Type": "Element",
+  "Id": "zg-SnmgqmEKW4RB78Pojhg",
+  "Reference": "SEiqwyimhUez4N21XCqpiw/zg-SnmgqmEKW4RB78Pojhg",
+  "ParentRef": "SEiqwyimhUez4N21XCqpiw/QpIDq3u9akOitSgiepW-Xw",
+  "Created": "2025-10-26T17:13:29.1863888Z",
+  "Updated": "2025-10-26T17:13:29.1863888Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

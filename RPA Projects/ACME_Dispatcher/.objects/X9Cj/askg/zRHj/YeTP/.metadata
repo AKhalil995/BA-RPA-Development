@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Type password into the ACME login password field",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "YeTP_Le130uCovcvrOTTHw",
+  "Reference": "SEiqwyimhUez4N21XCqpiw/YeTP_Le130uCovcvrOTTHw",
+  "ParentRef": "SEiqwyimhUez4N21XCqpiw/zRHjxptMtU2ObTuEehxvGQ",
+  "Created": "2025-10-26T15:17:01.9628281Z",
+  "Updated": "2025-10-26T15:17:01.9628281Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

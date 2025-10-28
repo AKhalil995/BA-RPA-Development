@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click the 'Login' button on ACME login page",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "MioIPg5Qe02-pf3CVcXPnw",
+  "Reference": "SEiqwyimhUez4N21XCqpiw/MioIPg5Qe02-pf3CVcXPnw",
+  "ParentRef": "SEiqwyimhUez4N21XCqpiw/zRHjxptMtU2ObTuEehxvGQ",
+  "Created": "2025-10-26T15:17:11.8052741Z",
+  "Updated": "2025-10-26T15:17:11.8052741Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

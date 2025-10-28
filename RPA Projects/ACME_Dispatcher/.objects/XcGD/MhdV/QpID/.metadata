@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Open ACME, extract work items, and log out",
+  "Type": "Screen",
+  "Id": "QpIDq3u9akOitSgiepW-Xw",
+  "Reference": "SEiqwyimhUez4N21XCqpiw/QpIDq3u9akOitSgiepW-Xw",
+  "ParentRef": "SEiqwyimhUez4N21XCqpiw/MhdVYWvhwE66l6IQJ0Jt3Q",
+  "Created": "2025-10-26T16:29:44.4743248Z",
+  "Updated": "2025-10-26T16:29:44.4743248Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
