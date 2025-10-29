@@ -1,0 +1,14 @@
+Framework/InitAllApplications.xaml|638972834158992169
+Framework/Process.xaml|638972853703048793
+Framework/CloseAllApplications.xaml|638972834158716957
+Framework/InitAllSettings.xaml|638972834159202309
+Framework/GetTransactionData.xaml|638972845800452346
+Framework/RetryCurrentTransaction.xaml|638972834158787021
+Framework/TakeScreenshot.xaml|638972834166529533
+Framework/SetTransactionStatus.xaml|638972834159687489
+ACME/ACME_Login.xaml|638972834159707499
+ACME/ACME_AddComm.xaml|638972834159667456
+Framework/Utilities/NotificationAndReport.xaml|638972996928869190
+Framework/KillAllProcesses.xaml|638972991852340880
+Main.xaml|638972985648180330
+Base64/Base64_EncodeText.xaml|638972834163828979
