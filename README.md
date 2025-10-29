@@ -25,6 +25,13 @@ Your browser doesn’t support HTML5 video.
 
 ---
 
+**Folders**
+
+- [`ACME_Dispatcher`](RPA%20Projects/ACME%20Project%20%28Dispatcher%20-%20Performer%29/ACME_Dispatcher/)
+- [`ACME_Performer`](RPA%20Projects/ACME%20Project%20%28Dispatcher%20-%20Performer%29/ACME_Performer/)
+
+---
+
 ### Screenshots
 
 <p float="left">
@@ -53,9 +60,9 @@ Your browser doesn’t support HTML5 video.
 
 ---
 
-### RPA Challenge — Dynamic Form Filler (Modern UiPath)
+### RPA Challenge — Dynamic Form Filler
 
-Solves the classic **RPA Challenge** dynamic input form (10 shuffled rounds) **purely with Modern activities** and anchor‑by‑label targeting. The workflow reads the provided Excel, then types each value into the correct field even as positions change between rounds.
+Solves the classic **RPA Challenge** dynamic input form (10 shuffled rounds) and anchor‑by‑label targeting. The workflow reads the provided Excel, then types each value into the correct field even as positions change between rounds.
 
 **What it does**
 
@@ -66,9 +73,13 @@ Solves the classic **RPA Challenge** dynamic input form (10 shuffled rounds) **p
 
 ---
 
+**Folder:** [`RPA Projects/RPA_Challenge`](RPA%20Projects/RPA_Challenge/)
+
+---
+
 ### ACME System — Work Items Automation & Regex Table Extraction (UiPath)
 
-End‑to‑end **ACME System** workflow that logs in, navigates to **Work Items**, parses tables using **Invoke Code (C#)** with string/regex methods, and exports structured results. Designed to showcase **Modern UiPath** activities with code‑only parsing where appropriate.
+End‑to‑end **ACME System** workflow that logs in, navigates to **Work Items**, parses tables using **Invoke Code (C#)** with string/regex methods, and exports structured results. Designed to showcase activities with code‑only parsing where appropriate.
 
 **What it does**
 
@@ -80,6 +91,10 @@ End‑to‑end **ACME System** workflow that logs in, navigates to **Work Items*
 
 ---
 
+**Folder:** [`RPA Projects/ACME_Workflow_v2`](RPA%20Projects/ACME_Workflow_v2/)
+
+---
+
 ### Weather Bot (UiPath)
 
 Prompts for a city/country → searches Google Weather → extracts **Temperature**, **Humidity**, **Status** → writes a note in **Notepad** and saves it as  
@@ -87,6 +102,8 @@ Prompts for a city/country → searches Google Weather → extracts **Temperatur
 
 - **Folder:** [`RPA Projects/Weather Bot`](RPA%20Projects/Weather%20Bot/)
 - **Run:** open `project.json` in UiPath Studio → restore packages → run **Modern** or **Classic** implementation.
+
+---
 
 ---
 
@@ -113,13 +130,13 @@ Logs into the **ACME Test** site, navigates to **Work Items**, extracts all page
 
 **What it does**
 
-- `OpenAcme.xaml` → launches Chrome and signs in (Modern UI).
+- `OpenAcme.xaml` → launches Chrome and signs in.
 - `GoToWorkItems.xaml` → navigates to the Work Items list (selectors/anchors hardened).
 - `ExtractAllPages.xaml` → auto-detects or honors a page limit, scrapes table text, parses rows with regex into:  
   `WIID, Description, Type, Status, Date`.
 - `SaveResultToNotepad.xaml` → writes results to a timestamped file in `/Output`.
 
-**Folder:** [`RPA Projects/ACME`](RPA%20Projects/ACME/)
+**Folder:** [`RPA Projects/ACME`](RPA%20Projects/Modular_Workflow-SelectAssistant/ACME/)
 
 ---
 
@@ -130,11 +147,11 @@ Scrapes the **Rotten Tomatoes “300 Best Movies of All Time”** page and saves
 **What it does**
 
 - Prompts with an **Input Dialog** for how many movies to fetch (e.g., 10, 50, 100; configurable up to 300).
-- Opens the editorial page in Chrome (Modern UI), **gets page text with formatting**, normalizes NBSP spacing.
+- Opens the editorial page in Chrome, **gets page text with formatting**, normalizes NBSP spacing.
 - Uses a regex to parse each line into **rank, title, year**.
 - Builds a CSV in memory and saves it through `SaveResultToNotepad.xaml` to `/Output/RT_Top_{N}_{timestamp}.txt`.
 
-**Folder:** [`RPA Projects/Rotten Tomatoes`](RPA%20Projects/Rotten%20Tomatoes/)
+**Folder:** [`RPA Projects/Rotten Tomatoes`](RPA%20Projects/Modular_Workflow-SelectAssistant/Rotten%20Tomatoes/)
 
 ---
 

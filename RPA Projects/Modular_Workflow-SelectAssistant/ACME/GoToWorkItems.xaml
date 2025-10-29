@@ -105,7 +105,7 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GoToWorkItems" sap:VirtualizedContainerService.HintSize="907,944" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GoToWorkItems" sap:VirtualizedContainerService.HintSize="974,944" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -131,7 +131,7 @@
               </sap:WorkflowViewStateService.ViewState>
               <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Work Items'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,227" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7c59d7c0-f32f-48db-a240-b93c96fc7be7" Version="V5">
                 <uix:NClick.Target>
-                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com" CVScreenId="0b39df9b-f463-4072-ac0c-fb86a7296508" ContentHash="7sl_mdCOWUqmW6G3ZT00vg" DesignTimeRectangle="341, 518, 200, 46" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                          Work Items' parentid='dashmenu' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                          Work Items' parentid='dashmenu' tag='BUTTON' type='button' class='btn btn-default btn-lg' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Work Items' /&gt;" Guid="b4f76b98-3f54-434d-933f-41cb0f5127c4" InformativeScreenshot="1138633921df6d72640beeaac3f3bd7e.png" Reference="5h-T6yIFwk-dxPc1On4tBQ/UAboDw1yxkSIx56b1oYdwg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
+                  <uix:TargetAnchorable BrowserURL="acme-test.uipath.com" CVScreenId="0b39df9b-f463-4072-ac0c-fb86a7296508" ContentHash="9S6XXSonVUKmtHNLworvNA" DesignTimeRectangle="141, 518, 200, 46" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                          Work Items' parentid='dashmenu' tag='BUTTON' /&gt;" Guid="b4f76b98-3f54-434d-933f-41cb0f5127c4" InformativeScreenshot="1138633921df6d72640beeaac3f3bd7e.png" Reference="5h-T6yIFwk-dxPc1On4tBQ/UAboDw1yxkSIx56b1oYdwg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
                 </uix:NClick.Target>
                 <uix:NClick.VerifyOptions>
                   <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
