@@ -9,6 +9,50 @@ A personal workspace for RPA learning and proofs-of-concept + a curated list of 
 
 ## RPA Projects
 
+# ACME Project (Dispatcher → Performer)
+
+->
+<video
+  src="RPA%20Projects/ACME%20Project%20%28Dispatcher%20-%20Performer%29/Demo.mp4"
+  controls
+  muted
+  playsinline
+  width="100%"
+  poster="RPA%20Projects/ACME%20Project%20%28Dispatcher%20-%20Performer%29/Screenshots/Dispatcher%20Post%20Run%20-%20Queue%20Items.png">
+Your browser doesn’t support HTML5 video.
+<a href="RPA%20Projects/ACME%20Project%20%28Dispatcher%20-%20Performer%29/Demo.mp4">Download the MP4</a>.
+</video>
+
+---
+
+### Screenshots
+
+<p float="left">
+  <img src="RPA%20Projects/ACME%20Project%20%28Dispatcher%20-%20Performer%29/Screenshots/Dispatcher%20Post%20Run%20-%20Queue%20Items.png" alt="Dispatcher Post Run - Queue Items" width="32%" />
+  <img src="RPA%20Projects/ACME%20Project%20%28Dispatcher%20-%20Performer%29/Screenshots/Guard%20Against%20Duplicates.png" alt="Guard Against Duplicates" width="32%" />
+  <img src="RPA%20Projects/ACME%20Project%20%28Dispatcher%20-%20Performer%29/Screenshots/Performer%20Post%20Run%20-%20Status%20Update.png" alt="Performer Post Run - Status Update" width="32%" />
+</p>
+
+### What this does
+
+- **Dispatcher** pulls ACME Work Items, **filters Type = WI3**, builds queue payload (Ref + key fields), and enqueues to **`ACME_WI3_Queue`** (folder **`ITI`**).
+- **Performer** gets each queue item, **encodes comment text (Base64 via base64encode.org)**, opens the work-item **Update** page, pastes into **Add Comment**, sets **Status = Completed**, **updates transaction status**, and **appends to a CSV** (run summary emailed on finish).
+
+---
+
+### CSV output
+
+- **Path:** `Data\Output\Reports\ACME_Performer_{yyyyMMdd_HHmm}.csv`
+- **Columns:** `WIID,Type,Status,Date,Result`
+- Every successful transaction appends a line; the file is attached to the end-of-run email.
+
+### Orchestrator triggers
+
+- **Queue Trigger** → Process: `ACME_Performer`, Queue: `ACME_WI3_Queue`, Folder: `ITI`, Min items = 1.
+- **Event Trigger (Gmail)** → to kick off the **Dispatcher** on specific incoming emails (filters by `From`/`Subject`).
+
+---
+
 ### RPA Challenge — Dynamic Form Filler (Modern UiPath)
 
 Solves the classic **RPA Challenge** dynamic input form (10 shuffled rounds) **purely with Modern activities** and anchor‑by‑label targeting. The workflow reads the provided Excel, then types each value into the correct field even as positions change between rounds.
@@ -19,28 +63,6 @@ Solves the classic **RPA Challenge** dynamic input form (10 shuffled rounds) **p
 - `ReadExcelData.xaml` → reads the Excel into a `DataTable` (`in_ExcelPath` → `out_DataTable`).
 - `ProcessFormData.xaml` → opens the challenge page (`in_ChallengeURL`), loops the data, and **types into inputs anchored to their labels**; handles all **10 rounds** reliably.
 - `Main.xaml` orchestrates the end‑to‑end run and structured logging.
-
-**Files (entry & modules)**  
-`Main.xaml` (entry), `DownloadAndMoveExcel.xaml` , `ReadExcelData.xaml`, `ProcessFormData.xaml`
-
-**Arguments**
-
-- `DownloadAndMoveExcel.xaml`: `in_ChallengeURL` (In, String), `out_ExcelPath` (Out, String)
-- `ReadExcelData.xaml`: `in_ExcelPath` (In, String), `out_DataTable` (Out, DataTable)
-- `ProcessFormData.xaml`: `in_ChallengeURL` (In, String), `in_DataTable` (In, DataTable)
-
-**Run**
-
-1. Open the project in **UiPath Studio** and set **`Main.xaml`** as the entry point.
-2. Make sure `in_ChallengeURL` points to the challenge page.
-3. If you already have the Excel, **skip** the download step and pass its path to `ReadExcelData.xaml` (`in_ExcelPath`).
-4. Click **Run**. The bot fills all rounds using Modern selectors with label anchors.
-
-**Tech highlights**
-
-- 100% **Modern** activities (no script injection)
-- Robust **anchor‑by‑label** strategy for shuffled fields
-- Modular XAMLs with clear **In/Out** arguments and centralized orchestration
 
 ---
 
@@ -55,41 +77,6 @@ End‑to‑end **ACME System** workflow that logs in, navigates to **Work Items*
 - `ExtractTables_Code.xaml` → scrapes the HTML/text and **parses rows in code** (C#) via regex/string methods; outputs a clean table (e.g., CSV/DataTable).
 - `SaveResultToNotepad.xaml` → persists the processed results to a .txt file for quick verification.
 - `ACME_Workflow.xaml` → orchestrator that calls the above modules, sets arguments, and handles logging.
-
-**Files (entry & modules)**  
-`ACME_Workflow.xaml` (entry), `OpenAcme.xaml`, `GoToWorkItems.xaml`, `ExtractTables_Code.xaml`, `SaveResultToNotepad.xaml`
-
-**Arguments discovered from XAML**
-
-- **ACME_Workflow.xaml**
-  - `in_intTotalPages` (In, x:Int32)
-  - `in_strPassword` (In, x:String)
-  - `in_strUsername` (In, x:String)
-- **ExtractTables_Code.xaml**
-  - `tableText` (In, x:String)
-  - `totalPages` (InOut, x:Int32)
-  - `in_intTotalPages` (In, x:Int32)
-  - `sb` (InOut, st:StringBuilder)
-  - `out_strTextToSave` (Out, x:String)
-- **OpenAcme.xaml**
-  - `in_strPassword` (In, x:String)
-  - `in_strUsername` (In, x:String)
-- **SaveResultToNotepad.xaml**
-  - `in_strTextToSave` (In, x:String)
-  - `in_strFilePath` (In, x:String)
-
-**Run**
-
-1. Open in **UiPath Studio**, set **`ACME_Workflow.xaml`** as the entry point.
-2. Ensure `in_AcmeUrl`, credentials, and output paths (if present) are set in project arguments/Config.
-3. Run. The workflow opens ACME, navigates to Work Items, extracts table content via code, and saves results (e.g., CSV or .txt).
-
-**Tech highlights**
-
-- Modern activities for UI reliability (no legacy selectors).
-- **Code‑only parsing** of tabular text using C# string/regex in `ExtractTables_Code.xaml`.
-- Modular XAMLs with clear responsibilities and argument flow.
-- Suitable as a **study guide** for advanced string/regex parsing within UiPath.
 
 ---
 
@@ -118,8 +105,6 @@ shared save routine.
 
 **Folder:** [`RPA Projects/Modular_Workflow-SelectAssistant`](RPA%20Projects/Modular_Workflow-SelectAssistant/)
 
-**Run:** open `project.json` in UiPath Studio → _Restore Dependencies_ → run **Main Flow.xaml** entry point.
-
 ---
 
 ### ACME Work Items Scraper (UiPath)
@@ -134,25 +119,7 @@ Logs into the **ACME Test** site, navigates to **Work Items**, extracts all page
   `WIID, Description, Type, Status, Date`.
 - `SaveResultToNotepad.xaml` → writes results to a timestamped file in `/Output`.
 
-**Files (entry & modules)**  
-`ACME_Workflow.xaml` (entry), `OpenAcme.xaml`, `GoToWorkItems.xaml`, `ExtractAllPages.xaml`, `Modules/SaveResultToNotepad.xaml`
-
 **Folder:** [`RPA Projects/ACME`](RPA%20Projects/ACME/)
-
-**Run**
-
-1. Open the ACME project in UiPath Studio and **Set Entry Point** to `ACME_Workflow.xaml`.
-2. In **Arguments**, set:
-   - `in_strUsername` (string)
-   - `in_strPassword` (string)
-   - `in_intTotalPages` (int, optional: `0` or empty = auto-detect)
-3. Run. Output saves under `/Output/` (timestamped filename).
-
-**Tech highlights**
-
-- Modern UI (`NApplicationCard`, anchors, resilient selectors)
-- Optional page cap vs. auto-detected pagination
-- Regex parsing with named groups → clean CSV text
 
 ---
 
@@ -167,22 +134,7 @@ Scrapes the **Rotten Tomatoes “300 Best Movies of All Time”** page and saves
 - Uses a regex to parse each line into **rank, title, year**.
 - Builds a CSV in memory and saves it through `SaveResultToNotepad.xaml` to `/Output/RT_Top_{N}_{timestamp}.txt`.
 
-**Files**  
-`GetTopMoviesFromRT.xaml`, `Modules/SaveResultToNotepad.xaml`
-
 **Folder:** [`RPA Projects/Rotten Tomatoes`](RPA%20Projects/Rotten%20Tomatoes/)
-
-**Run**
-
-1. Open the RT project (or just `GetTopMoviesFromRT.xaml`) in UiPath Studio.
-2. Click **Run**, enter a number when prompted (1–300).
-3. Check `/Output/` for the timestamped text file.
-
-**Tech highlights**
-
-- Modern UI scraping with `AllowFormatting`
-- NBSP cleanup + regex-based parsing
-- Quirk-safe CSV (titles sanitized/quoted as needed)
 
 ---
 
