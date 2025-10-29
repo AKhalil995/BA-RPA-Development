@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Update workitem window",
+  "Type": "Screen",
+  "Id": "SYD0dKu__UG2oSHCfRFLvg",
+  "Reference": "CrLqkf4aIE6ZNXGAG7ridQ/SYD0dKu__UG2oSHCfRFLvg",
+  "ParentRef": "CrLqkf4aIE6ZNXGAG7ridQ/uTKpSxE6KUikHd2Dj9Ma0w",
+  "Created": "2025-10-26T21:57:15.257986Z",
+  "Updated": "2025-10-26T22:05:03.1716276Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

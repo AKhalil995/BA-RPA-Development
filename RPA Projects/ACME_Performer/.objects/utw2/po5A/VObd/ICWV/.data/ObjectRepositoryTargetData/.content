@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oBLdNCDWw02BDpEWSMVTQg" Reference="CrLqkf4aIE6ZNXGAG7ridQ/ICWVdQk0Oku5srG4kTnAaw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="base64encode.org" CVScreenId="c18ba074-2694-4891-b9ab-200d5205c136" CvElementArea="281, 419, 961, 221" CvType="InputBox" DesignTimeRectangle="277, 422, 968, 220" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input' tag='TEXTAREA' type='' class='' placeholder='Type (or paste) here...' aaname='Simply enter your data then push the encode button.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="27db4396-4ab7-44c4-92af-86033cadd20c" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Base64 Encode and Decode - Online' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c18ba074-2694-4891-b9ab-200d5205c136" CvTextArea="275, 385, 280, 14" CvTextArgument="Simply enter your data then push the encode button." CvType="Text" DesignTimeRectangle="277, 379, 968, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Simply enter your data then push the encode button.' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Simply enter your data then push the encode button.' /&gt;" Guid="42c052e4-f892-4079-ad66-be2bae9e6144" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a1eeeeac50bf3a81a94c5d4a6c054777.png" xmlns="">0Hzm6GTVzXkiR0cZe8Erd1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

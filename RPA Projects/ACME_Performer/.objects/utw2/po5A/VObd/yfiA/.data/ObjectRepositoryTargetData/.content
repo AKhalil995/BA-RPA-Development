@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1Z9iborLhE2Xa8VWAwC04A" Reference="CrLqkf4aIE6ZNXGAG7ridQ/yfiAXIPQXkaxvsTGtFHQrw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="base64encode.org" CVScreenId="aca459a9-0766-4a40-aa8f-8ec3afd13226" CvElementArea="276, 446, 966, 214" CvType="InputBox" DesignTimeRectangle="277, 802, 968, 220" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='output' tag='TEXTAREA' type='' class='' placeholder='Result goes here...' aaname='Encodes your data into the area below.' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9ddbbed4-39f2-44d0-add7-7f92d4a8fa8b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Base64 Encode and Decode - Online' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="77bedb5d-ed8f-4d2f-8e67-f8729209e00b" CvTextArea="281, 808, 109, 16" CvTextArgument="Result goes here..." CvType="Text" DesignTimeRectangle="281, 808, 109, 16" ElementType="Text" Guid="f837a49a-3883-4dc4-956c-dcb9c72e69fa" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e4565d3f78bce87a563f2fe0a15572c6.png" xmlns="">0fL8s7Cj9xEaT9WJrMNHR_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

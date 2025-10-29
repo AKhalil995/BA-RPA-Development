@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Result goes here...",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "T5V7CjzwzEe8mWQ5hqyVWQ",
+  "Reference": "CrLqkf4aIE6ZNXGAG7ridQ/T5V7CjzwzEe8mWQ5hqyVWQ",
+  "ParentRef": "CrLqkf4aIE6ZNXGAG7ridQ/VObdOWMa-UyQqOrznh9NNQ",
+  "Created": "2025-10-26T21:21:34.0167193Z",
+  "Updated": "2025-10-26T21:21:34.0167193Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,22 +1,17 @@
 <Activity mc:Ignorable="sap sap2010" x:Class="NotificationAndReport" this:NotificationAndReport.in_DoSendEmail="True" this:NotificationAndReport.in_ReportFolder="Data\Output\Reprots" this:NotificationAndReport.in_ProcessRole="Dispatcher" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:uasc="clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities" xmlns:uga="clr-namespace:UiPath.GSuite.Activities;assembly=UiPath.GSuite.Activities" xmlns:ugage="clr-namespace:UiPath.GSuite.Activities.Gmail.Enums;assembly=UiPath.GSuite.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.GSuite.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="in_TotalProcessed" Type="InArgument(x:Int32)" />
+    <x:Property Name="in_SuccessCount" Type="InArgument(x:Int32)" />
     <x:Property Name="in_CsvRows" Type="InArgument(x:String)" />
     <x:Property Name="in_DoSendEmail" Type="InArgument(x:Boolean)" />
     <x:Property Name="in_SubjectTemplate" Type="InArgument(x:String)" />
     <x:Property Name="in_NotifyRecipientsRaw" Type="InArgument(x:String)" />
     <x:Property Name="out_ReportPath" Type="OutArgument(x:String)" />
     <x:Property Name="in_ReportFolder" Type="InArgument(x:String)" />
-    <x:Property Name="in_SuccessCount" Type="InArgument(x:Int32)" />
-    <x:Property Name="in_TotalProcessed" Type="InArgument(x:Int32)" />
     <x:Property Name="in_RunEndUtc" Type="InArgument(s:DateTime)" />
     <x:Property Name="in_RunStartUtc" Type="InArgument(s:DateTime)" />
     <x:Property Name="in_ProcessRole" Type="InArgument(x:String)" />
   </x:Members>
-  <this:NotificationAndReport.in_TotalProcessed>
-    <InArgument x:TypeArguments="x:Int32">
-      <CSharpValue x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">0</CSharpValue>
-    </InArgument>
-  </this:NotificationAndReport.in_TotalProcessed>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
@@ -144,7 +139,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="NotificationAndReport" sap:VirtualizedContainerService.HintSize="1007,3320" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="NotificationAndReport" sap:VirtualizedContainerService.HintSize="607,3320" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="runId" />
       <Variable x:TypeArguments="x:Int32" Default="0" Name="durationSec" />
@@ -424,7 +419,7 @@
               </uga:SendEmailConnections.InputTypeBackup>
               <uga:SendEmailConnections.Subject>
                 <InArgument x:TypeArguments="x:String">
-                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_46" xml:space="preserve">Convert.ToString(in_SubjectTemplate)
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_61" xml:space="preserve">Convert.ToString(in_SubjectTemplate)
   .Replace("{RunId}", runId)
   .Replace("{Success}", Convert.ToString(in_SuccessCount))
   .Replace("{Total}", Convert.ToString(in_TotalProcessed))</CSharpValue>

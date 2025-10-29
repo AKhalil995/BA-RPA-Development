@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Check WorkItem State",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "r4jERv24LU6YYiKBkvZG2A",
+  "Reference": "CrLqkf4aIE6ZNXGAG7ridQ/r4jERv24LU6YYiKBkvZG2A",
+  "ParentRef": "CrLqkf4aIE6ZNXGAG7ridQ/SYD0dKu__UG2oSHCfRFLvg",
+  "Created": "2025-10-26T21:59:04.1210644Z",
+  "Updated": "2025-10-26T22:06:18.8664094Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

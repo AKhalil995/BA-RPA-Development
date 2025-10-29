@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8EBL9TMSSUusBP8nafvJ_w" Reference="CrLqkf4aIE6ZNXGAG7ridQ/QJkTmGF9J06oA2EIRtetsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="base64encode.org" CVScreenId="c18ba074-2694-4891-b9ab-200d5205c136" CvTextArea="313, 870, 62, 13" CvTextArgument="ENCODE" CvType="Text" DesignTimeRectangle="277, 864, 136, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='submit_text' tag='BUTTON' /&gt;" Guid="4fc7cbeb-f72e-4165-b82c-8c054707add5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Base64 Encode and Decode - Online' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e46b61ddc6e81f4f23864b542894a273.png" xmlns="">0nrN0pqkd6UmT1gWAcnqyQg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

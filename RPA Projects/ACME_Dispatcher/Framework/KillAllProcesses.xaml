@@ -28,7 +28,6 @@
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
-      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
       <AssemblyReference>Microsoft.CSharp</AssemblyReference>
       <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -86,9 +85,11 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Workflow</AssemblyReference>
       <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Use the Kill Process activity to force the termination of the Windows processes representing applications used in the business process being automated.&#xA;Note that killing processes might have undesirable outcomes, such as losing unsaved changes to files." DisplayName="Kill All Processes" sap:VirtualizedContainerService.HintSize="889,885" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="Use the Kill Process activity to force the termination of the Windows processes representing applications used in the business process being automated.&#xA;Note that killing processes might have undesirable outcomes, such as losing unsaved changes to files." DisplayName="Kill All Processes" sap:VirtualizedContainerService.HintSize="848,885" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>

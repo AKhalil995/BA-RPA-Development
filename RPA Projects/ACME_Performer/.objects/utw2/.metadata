@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Performer_Session",
+  "Type": "App",
+  "Id": "utw2EpenXUi0xun0prfOxw",
+  "Reference": "CrLqkf4aIE6ZNXGAG7ridQ/utw2EpenXUi0xun0prfOxw",
+  "Created": "2025-10-26T19:27:47.46331Z",
+  "Updated": "2025-10-26T20:15:00.2641871Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

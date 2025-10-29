@@ -50,7 +50,6 @@
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
-      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
       <AssemblyReference>Microsoft.CSharp</AssemblyReference>
       <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
@@ -115,13 +114,13 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OpenAcme" sap:VirtualizedContainerService.HintSize="1097,661.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="OpenAcme" sap:VirtualizedContainerService.HintSize="556,3935" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="- Precondition:&#xA;    in_Config[&quot;Acme_URL_Login&quot;] exists&#xA;    ACME_Credentials asset exists in Orchestrator folder ITI and Config.xlsx&#xA;    Chrome is available&#xA;&#xA;- Action:&#xA;    Open ACME login page&#xA;    Retrieve username/password from Orchestrator&#xA;    Type credentials and click Login&#xA;    Validate dashboard loaded&#xA;    Navigate to Work Items page&#xA;&#xA;- Postcondition:&#xA;    Robot is authenticated and currently on Work Items list&#xA;    If any step fails, an exception is thrown and rethrown so Init stops" DisplayName="Open ACME, login, and navigate to work items" sap:VirtualizedContainerService.HintSize="556,4374" sap2010:WorkflowViewState.IdRef="Sequence_19">
+    <Sequence sap2010:Annotation.AnnotationText="- Precondition:&#xA;    in_Config[&quot;Acme_URL_Login&quot;] exists&#xA;    ACME_Credentials asset exists in Orchestrator folder ITI and Config.xlsx&#xA;    Chrome is available&#xA;&#xA;- Action:&#xA;    Open ACME login page&#xA;    Retrieve username/password from Orchestrator&#xA;    Type credentials and click Login&#xA;    Validate dashboard loaded&#xA;    Navigate to Work Items page&#xA;&#xA;- Postcondition:&#xA;    Robot is authenticated and currently on Work Items list&#xA;    If any step fails, an exception is thrown and rethrown so Init stops" DisplayName="Open ACME, login, and navigate to work items" sap:VirtualizedContainerService.HintSize="556,3912" sap2010:WorkflowViewState.IdRef="Sequence_19">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -135,15 +134,15 @@
           </InArgument>
         </ui:LogMessage.Message>
       </ui:LogMessage>
-      <TryCatch DisplayName="Log in to ACME system" sap:VirtualizedContainerService.HintSize="522,3882" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+      <TryCatch DisplayName="Log in to ACME system" sap:VirtualizedContainerService.HintSize="522,3397" sap2010:WorkflowViewState.IdRef="TryCatch_3">
         <TryCatch.Try>
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome ACME System 1 - Dashboard" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,3385" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="7c59d7c0-f32f-48db-a240-b93c96fc7be7" Version="V2" WindowResize="Maximize">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome ACME System 1 - Dashboard" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,2894" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="7c59d7c0-f32f-48db-a240-b93c96fc7be7" Version="V2" WindowResize="Maximize">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,3167" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,2636" sap2010:WorkflowViewState.IdRef="Sequence_16">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="Acme_Username" />
                     <Variable x:TypeArguments="ss:SecureString" Name="Acme_Password" />
@@ -160,7 +159,7 @@
                       </InArgument>
                     </ui:LogMessage.Message>
                   </ui:LogMessage>
-                  <ui:GetRobotCredential TimeoutMS="{x:Null}" CacheStrategy="None" DisplayName="Get Orchestrator Credential" sap:VirtualizedContainerService.HintSize="452,460" sap2010:WorkflowViewState.IdRef="GetRobotCredential_3">
+                  <ui:GetRobotCredential TimeoutMS="{x:Null}" CacheStrategy="None" DisplayName="Get Orchestrator Credential" sap:VirtualizedContainerService.HintSize="452,204" sap2010:WorkflowViewState.IdRef="GetRobotCredential_3">
                     <ui:GetRobotCredential.AssetName>
                       <InArgument x:TypeArguments="x:String">
                         <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">in_Config["Acme_CredentialsAsset"].ToString()</CSharpValue>
@@ -235,9 +234,9 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NClick>
-                  <uix:NCheckState DisplayName="Check ACME dashboard state and handle login failure" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1294" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="7c59d7c0-f32f-48db-a240-b93c96fc7be7" Version="V5">
+                  <uix:NCheckState DisplayName="Check ACME dashboard state and handle login failure" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1017" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="7c59d7c0-f32f-48db-a240-b93c96fc7be7" Version="V5">
                     <uix:NCheckState.IfExists>
-                      <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,766" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                      <Sequence sap2010:Annotation.AnnotationText="" DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,489" sap2010:WorkflowViewState.IdRef="Sequence_14">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -245,10 +244,10 @@
                             <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NGoToUrl sap2010:Annotation.AnnotationText="- Pre: &#xA;    Dashboard visible (login success). &#xA;- Action: &#xA;    Navigate directly to Work Items page. &#xA;- Post: Robot is now positioned on Work Items for downstream scraping / processing." ContinueOnError="False" DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="416,538" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="7c59d7c0-f32f-48db-a240-b93c96fc7be7" Version="V5">
+                        <uix:NGoToUrl sap2010:Annotation.AnnotationText="- Pre: &#xA;    Dashboard visible (login success). &#xA;- Action: &#xA;    Navigate directly to Work Items page. &#xA;- Post: Robot is now positioned on Work Items for downstream scraping / processing." ContinueOnError="False" DisplayName="Go To URL - " sap:VirtualizedContainerService.HintSize="416,261" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="7c59d7c0-f32f-48db-a240-b93c96fc7be7" Version="V5">
                           <uix:NGoToUrl.Url>
                             <InArgument x:TypeArguments="x:String">
-                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_44">in_Config["Acme_URL_WorkItem"].ToString()</CSharpValue>
+                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_48">in_Config["Acme_URL_WorkItems"].ToString()</CSharpValue>
                             </InArgument>
                           </uix:NGoToUrl.Url>
                           <sap:WorkflowViewStateService.ViewState>

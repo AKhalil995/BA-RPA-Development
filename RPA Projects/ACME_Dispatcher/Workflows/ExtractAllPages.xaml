@@ -40,7 +40,6 @@
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
-      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
       <AssemblyReference>Microsoft.CSharp</AssemblyReference>
       <AssemblyReference>Microsoft.Extensions.DependencyModel</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
@@ -112,7 +111,7 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ExtractAllPages" sap:VirtualizedContainerService.HintSize="1091,2152" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ExtractAllPages" sap:VirtualizedContainerService.HintSize="848,2388" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_Scraped" />
     </Sequence.Variables>
@@ -121,7 +120,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="- Pre: Authenticated ACME session.&#xA;- Action: &#xA;     Navigate to Work Items &#xA;     Extract full table &#xA;     Assign to out_dt_WorkItems &#xA;     Log out&#xA;- Post: DataTable ready for WI3 filtering." DisplayName="Extract work items from ACME and log out." sap:VirtualizedContainerService.HintSize="554,2129" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="- Pre: Authenticated ACME session.&#xA;- Action: &#xA;     Navigate to Work Items &#xA;     Extract full table &#xA;     Assign to out_dt_WorkItems &#xA;     Log out&#xA;- Post: DataTable ready for WI3 filtering." DisplayName="Extract work items from ACME and log out." sap:VirtualizedContainerService.HintSize="554,2365" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -135,15 +134,15 @@
           </InArgument>
         </ui:LogMessage.Message>
       </ui:LogMessage>
-      <TryCatch DisplayName="Extract work items from ACME and log out" sap:VirtualizedContainerService.HintSize="520,1745" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+      <TryCatch DisplayName="Extract work items from ACME and log out" sap:VirtualizedContainerService.HintSize="520,1981" sap2010:WorkflowViewState.IdRef="TryCatch_1">
         <TryCatch.Try>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Open ACME, extract work items, and log out" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,1256" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="f0c6ecb0-ef55-4f61-a52e-f9c979ccd555" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Open ACME, extract work items, and log out" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,1486" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="f0c6ecb0-ef55-4f61-a52e-f9c979ccd555" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1038" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1228" sap2010:WorkflowViewState.IdRef="Sequence_13">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -205,13 +204,18 @@
                       </ui:LogMessage.Message>
                     </ui:LogMessage>
                   </Sequence>
-                  <ui:LogMessage DisplayName="Log the completion of the extraction workflow" sap:VirtualizedContainerService.HintSize="450,170" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
+                  <ui:LogMessage DisplayName="Log the completion of the extraction workflow" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info">
                     <ui:LogMessage.Message>
                       <InArgument x:TypeArguments="x:Object">
                         <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">"[Dispatcher][ExtractAllPages] Extraction workflow finished successfully."</CSharpValue>
                       </InArgument>
                     </ui:LogMessage.Message>
                   </ui:LogMessage>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click the 'Log Out' button" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,183" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f0c6ecb0-ef55-4f61-a52e-f9c979ccd555" Version="V5">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/work-items" CVScreenId="0195d7ee-6479-43aa-a188-7fad60e6f159" ContentHash="-U-10_cctE6GvmYqRdHBsQ" CvTextArea="1360, 113, 51, 16" CvTextArgument="Log Out" CvType="Text" DesignTimeRectangle="1346, 95, 80, 50" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Log Out' parentid='bs-example-navbar-collapse-1' tag='A' /&gt;" Guid="09d39ec0-a1b4-4dd7-8928-aea0f1a2dd37" InformativeScreenshot="e0801e6b826677ef113c497e6c350aa3.png" Reference="SEiqwyimhUez4N21XCqpiw/u4Cb67ur9Ua3VyGPTuizYQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
                 </Sequence>
               </ActivityAction>
             </uix:NApplicationCard.Body>

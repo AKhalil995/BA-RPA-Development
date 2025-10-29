@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="18Zy7_FIK0aLkqYMLbZoBA" Reference="CrLqkf4aIE6ZNXGAG7ridQ/T5V7CjzwzEe8mWQ5hqyVWQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="base64encode.org" CVScreenId="81ba62b7-e3cc-4eaf-b322-d57eac1eca7f" DesignTimeRectangle="277, 802, 968, 220" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='output' tag='TEXTAREA' /&gt;" Guid="08a45845-6111-4a3a-9b14-56ab5d53ee51" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Base64 Encode and Decode - Online' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="81ba62b7-e3cc-4eaf-b322-d57eac1eca7f" CvTextArea="281, 808, 109, 16" CvTextArgument="Result goes here..." CvType="Text" DesignTimeRectangle="281, 808, 109, 16" ElementType="Text" Guid="3e83d6ca-6548-4cdc-a980-962070dc4ed5" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fdf4ed51d2ca1012e8b5da98eb942bfa.png" xmlns="">0n0fI-QT9yUaLrNqfpShjNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

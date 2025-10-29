@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Acme_Login",
+  "Type": "Screen",
+  "Id": "ggJDrLF6n0GsDa0R-vpb8Q",
+  "Reference": "CrLqkf4aIE6ZNXGAG7ridQ/ggJDrLF6n0GsDa0R-vpb8Q",
+  "ParentRef": "CrLqkf4aIE6ZNXGAG7ridQ/po5AB8f2m0W-TDM3pbbpCQ",
+  "Created": "2025-10-26T19:27:47.5133728Z",
+  "Updated": "2025-10-26T19:28:47.1991649Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.16.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
