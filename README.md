@@ -17,7 +17,7 @@ A focused workspace showcasing:
   - [Select Assistant (Movies / Temperature)](#select-assistant-modular-workflow-uipath)
   - [ACME Work Items Scraper](#acme-work-items-scraper-uipath)
   - [Rotten Tomatoes — Top _N_ Movies](#rotten-tomatoes--top-_n_-movies-uipath)
-- [🎓 Certificates & 🏅 Badges](#-certificates--badges)
+- [Certificates & Badges](#-certificates--badges)
 
 ---
 
@@ -203,7 +203,7 @@ Scrapes Rotten Tomatoes’ “300 Best Movies of All Time” editorial list and 
 
 ---
 
-## 🎓 Certificates & 🏅 Badges
+## Certificates & Badges
 
 ### Badges
 
