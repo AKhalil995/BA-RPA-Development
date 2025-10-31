@@ -1,0 +1,101 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/01_Init/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "required&Sequence_1",
+        "strArr_required&Sequence_22",
+        "dt_Html&Sequence_1",
+        "dt_Assets&Sequence_1",
+        "dt_Constants&Sequence_1",
+        "dt_Settings&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/02_Core/ComposeEmailBody.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "subjectOut&Sequence_1",
+        "subjectTokens&Sequence_1",
+        "subjectTemplate&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/02_Core/ReadRecipients.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/02_Core/SendEmail_SMTP.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "pwd&Sequence_1",
+        "user&Sequence_1",
+        "assetName&Sequence_1",
+        "fromDisplay&Sequence_1",
+        "fromAddress&Sequence_1",
+        "smtpPort&Sequence_1",
+        "smtpHost&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Utilities/AppendLogRow.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "errorMessage&Sequence_1",
+        "sendStatus&Sequence_1",
+        "bodyHtml&Sequence_1",
+        "subject&Sequence_1",
+        "renderedHtml&Sequence_1",
+        "recipientRow&Sequence_1",
+        "dtLog&Sequence_1",
+        "dtRecipients&Sequence_1",
+        "htmlTemplate&Sequence_1",
+        "config&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Utilities/RenderTemplate.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "html&Sequence_1",
+        "dictTokens&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

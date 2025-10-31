@@ -1,13 +1,63 @@
 # BA-RPA-Development
 
-A personal workspace for RPA learning and proofs-of-concept + a curated list of my verified certificates/badges.
+A personal workspace for RPA learning and proofs-of-concept + a curated list of verified certificates/badges.
 
 - [RPA Projects](#rpa-projects)
-- [Certificates & 🏅 Badges](#certificates--badges)
+  - [Grand Egyptian Museum Broadcast Email Bot](#grand-egyptian-museum-broadcast-email-bot-personalized-html-campaign-uipath)
+  - [ACME Project (Dispatcher → Performer)](#acme-project-dispatcher--performer)
+  - [RPA Challenge — Dynamic Form Filler](#rpa-challenge--dynamic-form-filler)
+  - [ACME System — Work Items Automation & Regex Table Extraction](#acme-system--work-items-automation--regex-table-extraction-uipath)
+  - [Weather Bot](#weather-bot-uipath)
+  - [Select Assistant (Movies / Temperature)](#select-assistant-modular-workflow-uipath)
+  - [ACME Work Items Scraper](#acme-work-items-scraper-uipath)
+  - [Rotten Tomatoes — Top _N_ Movies](#rotten-tomatoes--top-_n_-movies-uipath)
+- [Certificates & 🏅 Badges](#-certificates--badges)
 
 ---
 
 ## RPA Projects
+
+# Grand Egyptian Museum Broadcast Email Bot (Personalized HTML Campaign, UiPath)
+
+Automated “national announcement” broadcast for the Grand Egyptian Museum (GEM) opening.
+
+This is a transactional mailer. It personalizes content per recipient, themes the email with a black-and-gold “royal decree” aesthetic, sends via secure Gmail SMTP, and logs delivery results for audit.
+
+### What this bot does
+
+- Loads config, narrative text, event metadata, SMTP settings, and the HTML email template from `Config.xlsx`.
+- Reads all recipients (name + email) from `Recipients.xlsx`.
+- For each recipient:
+  - Replaces tokens like `{{FirstName}}`, `{{EventDate}}`, `{{VenueName}}`, `{{HeroImageUrl}}`, etc. in both the HTML body and the subject line.
+  - Injects ceremonial launch messaging (“Tomorrow, Egypt opens the doors…”), cultural context (Tutankhamun’s full treasure collection on display for the first time together, Ramesses II, the Grand Staircase, etc.), and practical notes (traffic restrictions, national holiday notice).
+  - Sends a fully responsive, museum-branded email via Gmail SMTP using an app password (not a normal Gmail password).
+  - Records status and any error for that recipient.
+- Builds a runtime log table (`dtLog`) so you can export a delivery report per run: who got what, and whether it was successful.
+
+The HTML template:
+
+- Uses a dark basalt background with warm gold borders and ornament bars to echo pharaonic visual language.
+- Frames hero and gallery images in bordered containers so they never overflow in the email client.
+- Speaks directly to the recipient:  
+  “`{{FirstName}}, this is more than an invitation, it’s a moment of pride we’ve waited decades to say out loud.`”
+
+---
+
+### Why this project matters
+
+- **Config-driven:**  
+  All message text, event metadata, image URLs, schedule, and SMTP info live in Excel sheets. Non-dev stakeholders can update messaging without editing workflows.
+
+- **Personalized at scale:**  
+  Every email uses tokens in both subject and body, so it feels like a direct invitation, not a mass blast.
+
+- **Modern Gmail security:**  
+  Uses an app password via an Orchestrator credential asset. Works with Gmail 2FA and doesn’t ship plain-text passwords in workflows.
+
+- **Per-recipient isolation:**  
+  Each send attempt is caught and logged. One failure just becomes one `"Failed"` row in `dtLog`.
+
+---
 
 # ACME Project (Dispatcher → Performer)
 
@@ -101,8 +151,6 @@ Prompts for a city/country → searches Google Weather → extracts **Temperatur
 
 - **Folder:** [`RPA Projects/Weather Bot`](RPA%20Projects/Weather%20Bot/)
 - **Run:** open `project.json` in UiPath Studio → restore packages → run **Modern** or **Classic** implementation.
-
----
 
 ---
 

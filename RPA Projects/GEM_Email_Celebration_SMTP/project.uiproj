@@ -1,0 +1,6 @@
+{
+  "Name": "GEM_Email_Celebration_SMTP",
+  "ProjectType": "Process",
+  "Description": "ITI",
+  "MainFile": "Main.xaml"
+}

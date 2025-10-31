@@ -1,0 +1,7 @@
+Framework/01_Init/InitAllSettings.xaml|638974785471422589
+Framework/02_Core/ComposeEmailBody.xaml|638974775969315106
+Main.xaml|638974762435671713
+Framework/Utilities/RenderTemplate.xaml|638974773866525609
+Framework/02_Core/SendEmail_SMTP.xaml|638974778762695620
+Framework/02_Core/ReadRecipients.xaml|638974771964190940
+Framework/Utilities/AppendLogRow.xaml|638974779671069045
